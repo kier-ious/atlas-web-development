@@ -2,21 +2,22 @@
   font-family: 'Source Sans Pro';
   src: url('https://www.fontsquirrel.com/fonts/source-sans-pro') format('opentype');
   font-weight: normal;
-  font-style: normal;
+  /* font-style: normal; */
 }
 
 /* Styling for header */
 
 body {
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 100vh;
   margin: 0;
 }
 
-main {
+/* main {
   width: 100%;
-}
+} */
 
 header {
   position: absolute;
@@ -41,7 +42,7 @@ header {
 
 #navbar a {
   color: #FFF;
-  font-family: "Source Sans Pro";
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
@@ -179,19 +180,26 @@ header {
 /* QUOTES */
 
 #quote .center-horizontally {
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
+  width: 1009px;
+  height: 237px;
+  top: 824px;
+  left: 221.08px;
+  right: 221.08px;
 }
 
 #quote {
   background: url('images/quote_background.png') center/cover;
   display: flex;
-  height: 392px;
+  /* justify-content: left; */
+  max-width: 1685px;
   width: 100%;
-
+  height: 392px;
 }
 
 #quote .text-wrapper {
-  margin-top: 110px;
+  margin-top: 75px;
   color: #FFF;
   font-family: "Source Sans Pro";
   font-size: 15px;
@@ -205,8 +213,8 @@ header {
   border-radius: 50%;
   width: 160px;
   height: 160px;
-  margin-top: 88px;
-  margin-left: 210px
+  margin-top: 83px;
+  margin-left: 143px
 }
 
 .light {
@@ -222,4 +230,87 @@ header {
 
 #quote p {
   margin-left: 40px;
+}
+
+/* Quote section still needs work */
+
+/* Video Section */
+
+.videos {
+  width: 1440px;
+  height: 450px;
+  margin: 0 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.videos-title {
+  display: flex;
+  position: absolute;
+  color: #071629;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  word-spacing: normal;
+}
+
+.videos-title .highlight {
+  font-size: 36px;
+  color: #C271FF;
+  font-weight: 700;
+  font-family: "Source Sans Pro";
+}
+
+.videos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 80px;
+  width: 1228px;
+  height: 450px;
+  flex-shrink: 0;
+}
+
+.Video1 {
+  width: 255px;
+  height: 335px;
+  margin-top: 115px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+
+.play_button {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  bottom: 226px;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.play {
+  width: 64px;
+  height: 64px;
+  bottom: 834px;
+  margin-left: 100px;
+}
+
+.videos .Author {
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-top: 10px; /* Adjust the margin based on your design */
+}
+
+.videos .Rating {
+  display: flex;
+  align-items: center;
+  margin-top: 5px; /* Adjust the margin based on your design */
 }
