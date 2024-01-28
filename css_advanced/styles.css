@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url('https://www.fontsquirrel.com/fonts/source-sans-pro') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Styling for header */
 body {
   align-items: center;
@@ -96,4 +103,65 @@ header {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.LFTP {
+  margin-top: 168px;
+  color: #C271FF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.highlight {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-size: 32px;
+}
+
+/* Everything above is complete and perf */
+.text-wrapper {
+  text-align: center;
+}
+
+.center-horizontally {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.people {
+  margin-top: 101px;
+  display: flex;
+  /* align-items: space-around; */
+  gap: 139px;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.name {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 27px;
+}
+
+.award {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
 }
