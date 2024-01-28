@@ -1,5 +1,8 @@
 /* Styling for header */
 body {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   margin: 0;
 }
 
@@ -10,13 +13,14 @@ main {
 header {
   position: absolute;
   display: flex;
+  justify-content: space-between;
   width: 1103.408px;
   height: 29.461px;
   z-index: 1;
   margin-left: 117.08px;
   margin-right: 227.67px;
   margin-top: 56px;
-  justify-content: space-between;
+
 }
 
 #navbar {
@@ -49,7 +53,7 @@ header {
   z-index: 0;
 }
 
-.banner h1 {
+.container h1 {
   display: flex;
   justify-content: center;
   color: #FFF;
@@ -61,7 +65,7 @@ header {
   margin-top: 225px;
 }
 
-.banner .smile {
+.smile p {
   display: flex;
   flex-direction: row;
   font-family: "Source Sans Pro";
@@ -71,10 +75,25 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-top: -10px;
+  margin-top: -100px;
   color: #FFF;
 }
 
-#banner button {
-
+#button {
+  margin: -38px auto;
+  display: flex;
+  align-items: center;
+  width: 162px;
+  height: 44px;
+  padding: 10px 20px;
+  border-radius: 22px;
+  background: #C271FF;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
