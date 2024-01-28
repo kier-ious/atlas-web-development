@@ -126,20 +126,26 @@ header {
 }
 
 /* Everything above is complete and perf */
-.text-wrapper {
-  text-align: center;
-}
+/* Awards */
 
 .center-horizontally {
-  /* display: flex; */
+  display: flex;
   justify-content: center;
+  margin-left: 221.08px;
+  margin-right: 218.08px;
+  margin-bottom: 10px;
+}
+
+.text-wrapper {
+  text-align: center;
 }
 
 .people {
   margin-top: 101px;
   display: flex;
-  /* align-items: space-around; */
+  justify-content: center;
   gap: 139px;
+  margin-bottom: 98px;
 }
 
 .circle {
@@ -164,4 +170,54 @@ header {
   font-style: italic;
   font-weight: 400;
   line-height: 24px;
+}
+
+/* Banner section is complete */
+
+/* QUOTES */
+
+#quote .center-horizontally {
+  justify-content: center;
+}
+
+#quote {
+  background: url('images/quote_background.png') center/cover;
+  display: flex;
+  height: 392px;
+  width: 100%;
+
+}
+
+#quote .text-wrapper {
+  margin-top: 110px;
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 15px;
+  line-height: 33.6px;
+  width: 100%;
+  height: 58px;
+  text-align: left;
+}
+
+.circle_quote {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin-top: 88px;
+  margin-left: 210px
+}
+
+.light {
+  font-weight: lighter;
+  text-align: left;
+}
+
+.italic light {
+  margin-top: 33.6px;
+  font-style: italic;
+  width: 165px;
+}
+
+#quote p {
+  margin-left: 40px;
 }
