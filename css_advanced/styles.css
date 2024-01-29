@@ -8,16 +8,22 @@
 /* Styling for header */
 
 body {
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+  width: 1440px;
+  height: 3718px;
   margin: 0;
 }
 
-/* main {
-  width: 100%;
+/* .background-img {
+  background-image: url("../css_advanced/images/background.png");
+  position: absolute;
+  width: 1440px;
+  height: 1093px;
+  left: 0;
+  top: 0;
 } */
+main {
+  width: 100%;
+}
 
 header {
   position: absolute;
@@ -192,7 +198,8 @@ header {
 #quote {
   background: url('images/quote_background.png') center/cover;
   display: flex;
-  /* justify-content: left; */
+  /* flex-direction: inherit; */
+  justify-content: left;
   max-width: 1685px;
   width: 100%;
   height: 392px;
@@ -222,7 +229,7 @@ header {
   text-align: left;
 }
 
-.italic light {
+.italic {
   margin-top: 33.6px;
   font-style: italic;
   width: 165px;
@@ -232,7 +239,10 @@ header {
   margin-left: 40px;
 }
 
+/* ===================================== */
 /* Quote section still needs work */
+/* ===================================== */
+
 
 /* Video Section */
 
@@ -243,6 +253,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
+  border-radius: 5px 5px 5px 5px;
 }
 
 .videos-title {
@@ -268,6 +279,7 @@ header {
 .videos-container {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
   justify-content: space-around;
   margin-left: 80px;
   width: 1228px;
@@ -276,28 +288,51 @@ header {
 }
 
 .Video1 {
+  top: 334px;
   width: 255px;
   height: 335px;
-  margin-top: 115px;
+  margin-top: 160px;
+  border-radius: 5px 5px 5px 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+
+.Video2 {
+  width: 255px;
+  height: 335px;
+  margin-top: 160px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+
+.Video3 {
+  width: 255px;
+  height: 335px;
+  margin-top: 160px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+
+.Video4 {
+  width: 255px;
+  height: 335px;
+  margin-top: 160px;
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
 }
 
 .play_button {
-  position: relative;
   left: 50%;
-  top: 50%;
-  bottom: 226px;
-  transform: translate(-50%, -50%);
-  z-index: 1;
-}
-
-.play {
+  top: 45px;
   width: 64px;
   height: 64px;
   bottom: 834px;
-  margin-left: 100px;
+  margin-left: 96px;
+  margin-right: 95px;
+  transform: translate(-50%, -50%);
 }
 
 .videos .Author {
