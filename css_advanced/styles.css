@@ -559,23 +559,31 @@ h2 {
   background: #071629;
 }
 
-/* .footer_content {
-  display: flex;
-  /* flex-direction: row;; */
-} */
+.footer_row {
+  justify-content: space-between;
+}
 
-.smiley_logo {
+.footer_row.smiley_logo {
   display: flexbox;
-  padding: 0.023px 0px 0.516px 0.592px;
+  /* padding: 0.023px 0px 0.516px 0.592px; */
   justify-content: center;
   align-items: center;
   gap: 18.019px;
   margin: 95px 1106px 124px 165px;
 }
 
-.footer p {
-  background: url("images/©smileschool\ 2020.png");
-  display: flex;
+.footer_row.social_media {
+  display: flexbox;
+  /* padding: 0.023px 0px 0.516px 0.592px; */
+  justify-content: right;
+  align-items: right;
+  /* gap: 18.019px; */
+  margin: 90px 240px 129px 1070px;
+}
+
+.social_media p {
+  /* background: url("images/©smileschool\ 2020.png"); */
+  /* display: flexbox; */
   flex-direction: column;
   text-align: center;
   color: #FFF;
@@ -585,14 +593,5 @@ h2 {
   font-weight: 400;
   line-height: normal;
   opacity: 0.3517;
-  margin: 195px 672px 39px 672;
-}
-
-.social_media {
-  display: inline-flex;
-  /* padding: 0.023px 0px 0.516px 0.592px; */
-  justify-content: right;
-  align-items: right;
-  gap: 18.019px;
-  /* margin: 90px 240px 129px 1070px; */
+  margin: 39px;
 }
