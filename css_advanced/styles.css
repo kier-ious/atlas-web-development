@@ -560,7 +560,10 @@ h2 {
 }
 
 .footer_row {
+  display: flex;
   justify-content: space-between;
+  gap: 800px;
+  margin-top: 75px;
 }
 
 .footer_row.smiley_logo {
@@ -581,11 +584,11 @@ h2 {
   margin: 90px 240px 129px 1070px;
 }
 
-.social_media p {
-  /* background: url("images/©smileschool\ 2020.png"); */
-  /* display: flexbox; */
+.footer p {
+  display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   color: #FFF;
   font-family: "Source Sans Pro";
   font-size: 12px;
