@@ -1,5 +1,8 @@
 # CSS Advanced
 
+![Image for README md](https://github.com/kier-ious/atlas-web-development/assets/126838794/af9e49f9-7135-4b1f-8223-88a4da64d057)
+
+
 ## What is CSS
 CSS or Cascading Style Sheets is a stylesheet language used to describe the presentation
 of a document written in HTML. It enables web developers to apply styling attributes
