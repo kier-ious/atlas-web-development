@@ -1,0 +1,600 @@
+* {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+/* Styling for header */
+
+body {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  width: 1440px;
+  height: 3718px;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+}
+
+header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 1103.408px;
+  height: 29.461px;
+  z-index: 1;
+  margin-left: 117.08px;
+  margin-right: 227.67px;
+  margin-top: 56px;
+
+}
+
+#navbar {
+  display: flex;
+  align-items: right;
+  gap: 52px;
+  justify-content: space-evenly;
+
+}
+
+#navbar a {
+  color: #FFF;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/* Banner Styling */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background: url('images/background.png') center/cover;
+  width: 1440px;
+  height: 1055px;
+  margin-top: 0px;
+}
+
+.container h1 {
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 120px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  margin-top: 225px;
+}
+
+.smile p {
+  display: flex;
+  flex-direction: row;
+  font-family: "Source Sans Pro";
+  justify-content: center;
+  word-spacing: 59px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: -100px;
+  color: #FFF;
+}
+
+#button {
+  margin: -38px auto;
+  display: flex;
+  align-items: center;
+  /* width: 162px; */
+  height: 44px;
+  padding: 13px 21px 13px 20px;
+  border-radius: 22px;
+  background: #C271FF;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+}
+
+.banner h2 {
+  margin-top: 168px;
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 608.08px;
+}
+
+#learn {
+  margin-top: 168px;
+  color: #C271FF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Everything above is complete and perf */
+/* Awards */
+
+.center-horizontally {
+  display: flex;
+  justify-content: center;
+  /* width: 1440px;
+  height: 392px; */
+  width: 1009px;
+  height: 237px;
+  margin-top: 87px;
+  margin-left: 221.08px;
+  margin-right: 218.08px;
+  margin-bottom: 10px;
+}
+
+.people {
+  /* position: absolute; */
+  margin-top: 101px;
+  display: flex;
+  justify-content: center;
+  gap: 139px;
+  /* margin-bottom: 98px; */
+}
+
+.text-wrapper {
+  text-align: center;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.name {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 27px;
+}
+
+.award {
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* Banner section is complete */
+
+/* QUOTES */
+
+#quote {
+  background: url('images/quote_background.png') center/cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1440px;
+  height: 392px;
+}
+
+#quote .center-horizontally {
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-around;
+  width: 1009px;
+  height: 237px;
+  top: 824px;
+  left: 221.08px;
+  right: 221.08px;
+}
+
+#quote .text-wrapper {
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 22px;
+  line-height: 33.6px;
+  width: 100%;
+  height: 58px;
+  text-align: left;
+}
+
+.circle_quote {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  /* margin-top: 83px;
+  margin-left: 143px */
+}
+
+.light {
+  font-weight: lighter;
+  text-align: left;
+}
+
+.italic {
+  margin-top: 33.6px;
+  font-style: italic;
+  width: 165px;
+}
+
+#quote p {
+  margin-left: 40px;
+}
+
+/* ===================================== */
+/* Quote section still needs work */
+/* ===================================== */
+
+
+/* Video Section */
+
+.videos {
+  width: 1440px;
+  height: 450px;
+  margin-bottom: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+    .videos h1 {
+      font-size: 32px;
+      color: #071629;
+      font-weight: 300;
+      font-family: "Source Sans Pro";
+      text-align: center;
+      margin-top: 87px;
+    }
+
+    .videos h1 strong {
+      font-size: 32px;
+      color: #C271FF;
+      font-weight: 700;
+      font-family: "Source Sans Pro";
+      text-align: center;
+      margin-top: 87px;
+    }
+
+.videos-container {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 1228px;
+  height: 450px;
+  flex-shrink: 0;
+}
+
+.tutorial_vid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 334px;
+  width: 255px;
+  height: 335px;
+  margin-top: 160px;
+  border-radius: 5px 5px;
+  background: #FFF;
+  z-index: 1;
+  cursor: pointer;
+  /* box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18); */
+}
+
+.tutorial_vid p {
+  font-weight: lighter;
+  text-align: left;
+}
+
+.play_button1 {
+  position: absolute;
+  z-index: 1;
+  left: 240px;
+  right: 1116px;
+  top: 1785px;
+  bottom: 1673px;
+}
+
+.play_button2 {
+  position: absolute;
+  z-index: 1;
+  left: 546px;
+  right: 830px;
+  top: 1785px;
+  bottom: 1673px;
+}
+
+.play_button3 {
+  position: absolute;
+  z-index: 1;
+  left: 831px;
+  right: 545px;
+  top: 1785px;
+  bottom: 1673px;
+}
+
+.play_button4 {
+  position: absolute;
+  z-index: 1;
+  left: 1116px;
+  right: 268px;
+  top: 1785px;
+  bottom: 1673px;
+}
+
+#Phillip {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.Author {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 79px;
+  color: #C271FF;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  margin-top: 10px;
+}
+
+.Rating {
+  gap: 79px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.Rating .highlight {
+  /* display: flex; */
+  /* gap: 79px; */
+  color: #C271FF;
+  text-align: right;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  align-items: center;
+}
+
+
+/* ==================================== */
+/* Membership Section */
+/* ==================================== */
+
+.membership_background {
+  background: url('images/mem_background.png');
+  color: #071629;
+  width: 1440px;
+  height: 502px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* z-index: 1; */
+  text-align: center;
+}
+
+    .membership_background strong {
+      font-size: 32px;
+      color: #C271FF;
+      font-weight: 700;
+      font-family: "Source Sans Pro";
+      text-align: center;
+      margin-top: 87px;
+    }
+
+    .membership_background h2 {
+      font-size: 32px;
+      color: #FFF;
+      font-weight: 300;
+      font-family: "Source Sans Pro";
+      text-align: center;
+      margin-top: 87px;
+    }
+
+.mem_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 502px;
+}
+
+.mem_items {
+  display: flex;
+  color: #FFF;
+  text-align: center;
+  flex-direction: column;
+  width: 257px;
+  height: 153px;
+  padding-left: 106.71px;
+  left: 164px;
+  right: 1019px;
+  top: 168px;
+  bottom: 181px;
+}
+
+.smiley {
+  width: 257px;
+  height: 153px;
+  flex: 1;
+  margin: 0 32px;
+}
+
+.smiley .mem_text {
+  margin-top: 26.62px;
+  font: "Source Sans Pro";
+  font-size: 19px;
+  font-weight: 400;
+  color: white
+}
+
+.smiley .mem_quote {
+  font: 'Source Sans Pro', 'Helvetica';
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.membership_background #button {
+  margin: -38px auto;
+  display: flex;
+  align-items: center;
+  /* width: 162px; */
+  height: 44px;
+  padding: 13px 21px 13px 20px;
+  border-radius: 22px;
+  background: #C271FF;
+  cursor: pointer;
+  color: #FFF;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  box-shadow: 0px 2px 4px 0px rgba(7, 22, 41, 0.18);
+  margin-bottom: 50px;
+}
+
+/* ======================================================= */
+/* F.A.Q. Section */
+/* ======================================================= */
+
+.faq {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFF;
+  width: 1440px;
+  height: 858px;
+}
+
+.title_box {
+  color: #071629;
+  text-align: center;
+  font-family: "Source Sans Pro";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  color: #071629;
+  font-family: "Source Sans Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.faq_container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: flex-start;
+  /* width: 920px; */
+  /* height: 707px; */
+  gap: 94px;
+}
+
+.faq p {
+  color: rgba(7, 22, 41, 0.50);
+  font-family: "Source Sans Pro";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.grid-item {
+  top: 74px;
+}
+
+/* ======================================================= */
+/* Footer Section */
+/* ======================================================= */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1440px;
+  height: 249px;
+  background: #071629;
+}
+
+.footer_row {
+  display: flex;
+  justify-content: space-between;
+  gap: 800px;
+  margin-top: 75px;
+}
+
+.footer_row.smiley_logo {
+  display: flexbox;
+  /* padding: 0.023px 0px 0.516px 0.592px; */
+  justify-content: center;
+  align-items: center;
+  gap: 18.019px;
+  margin: 95px 1106px 124px 165px;
+}
+
+.footer_row.social_media {
+  display: flexbox;
+  /* padding: 0.023px 0px 0.516px 0.592px; */
+  justify-content: right;
+  align-items: right;
+  /* gap: 18.019px; */
+  margin: 90px 240px 129px 1070px;
+}
+
+.footer p {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #FFF;
+  font-family: "Source Sans Pro";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.3517;
+  margin: 39px;
+}
